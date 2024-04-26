@@ -16,4 +16,4 @@ paddleocr
 
 # Python install / Virtual environment
 bin/
-/assets/models--runwayml--stable-diffusion-v1-5
+/assets/

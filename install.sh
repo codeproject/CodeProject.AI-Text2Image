@@ -1,5 +1,5 @@
 if [ "$1" != "install" ]; then
-    read -t 3 -p "This script is only called from: bash ../../setup.sh"
+    read -t 3 -p "This script is only called from: bash ../../CodeProject.AI-Server/src/setup.sh"
     echo
     exit 1 
 fi

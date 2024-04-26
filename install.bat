@@ -1,5 +1,5 @@
 @if "%1" NEQ "install" (
-    echo This script is only called from ..\..\setup.bat
+    echo This script is only called from ..\..\CodeProject.AI-Server\src\setup.bat
     @pause
     @goto:eof
 )

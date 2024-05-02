@@ -155,38 +155,6 @@
             }
           ]
         }
-/*
-        ,{
-          "Name": "Get Long Process Status",
-          "Route": "text2image/get_command_status",
-          "Method": "POST",
-          "Command": "get_command_status",
-          "MeshEnabled": false,
-          "Description": "Gets the status of a long running command.",
-          "Inputs": [
-            {
-              "Name": "command_id",
-              "Type": "Text",
-              "Description": "The id of the command to get the result for."
-            }
-          ]
-        },
-        {
-          "Name": "Get Long Process Status",
-          "Route": "text2image/cancel_command",
-          "Method": "POST",
-          "Command": "cancel_command",
-          "MeshEnabled": false,
-          "Description": "Cancels a long running command.",
-          "Inputs": [
-            {
-              "Name": "command_id",
-              "Type": "Text",
-              "Description": "The id of the command to be cancelled."
-            }
-          ]
-        }
-        */
       ]
     }
   }

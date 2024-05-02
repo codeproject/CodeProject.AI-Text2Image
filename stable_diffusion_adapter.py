@@ -2,6 +2,10 @@
 import time
 from typing import Dict
 
+# SetupTools replaces DistUtils, but if a package imports distutils before 
+# setuptools then setuptools will chuck a wobbly. This is a prophylactic.
+import setuptools
+
 # Import CodeProject.AI SDK
 from codeproject_ai_sdk import RequestData, ModuleOptions, ModuleRunner, JSON
 
@@ -230,7 +234,7 @@ class Text2Image_adapter(ModuleRunner):
         if not (self.current_step % self.skip_image_updates):
             """
             try:
-                # Note even ChatGPT can work out how to convert latents to images
+                # Not even ChatGPT can work out how to convert latents to images
                 # for a OVStableDiffusionPipeline object
                 from PIL import Image
                 images = self.pipeline.generate_images(latents)

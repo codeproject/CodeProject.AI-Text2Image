@@ -7,6 +7,6 @@ torch==2.0.1                    # Installing PyTorch, an open source machine lea
 diffusers[torch]                # Installing Diffusers for state-of-the-art diffusion in PyTorch and JAX.
 transformers                    # Installing transformers for State-of-the-art machine Learning for JAX, PyTorch and TensorFlow
 
-CodeProject-AI-SDK          # Installing the CodeProject.AI SDK
+CodeProject-AI-SDK              # Installing the CodeProject.AI SDK
 
 # last line empty.

@@ -3,7 +3,7 @@
 
     "Text2Image": {
       "Name": "Text to Image",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
 
       "PublishingInfo": {
         "Description": "Generates an image from a text prompt.",
@@ -49,7 +49,8 @@
           { "ModuleVersion": "1.1.1", "ServerVersionRange": [ "2.6.0", "2.6.0" ], "ReleaseDate": "2024-03-26", "ReleaseNotes": "Bug fixes" },
           { "ModuleVersion": "1.1.2", "ServerVersionRange": [ "2.6.1",      "" ], "ReleaseDate": "2024-04-01", "ReleaseNotes": "Updates for server 2.6" },
           { "ModuleVersion": "1.2.0", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Updates for server 2.6.5" },
-          { "ModuleVersion": "1.2.1", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections to compatibility settings" }
+          { "ModuleVersion": "1.2.1", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections to compatibility settings" },
+          { "ModuleVersion": "1.2.2", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections for Numpy 2.0 breaking changes" }
         ]
       },
       "UIElements": {

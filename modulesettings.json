@@ -3,7 +3,7 @@
 
     "Text2Image": {
       "Name": "Text to Image",
-      "Version": "1.2.2",
+      "Version": "1.3.0",
 
       "PublishingInfo": {
         "Description": "Generates an image from a text prompt.",
@@ -47,10 +47,11 @@
           { "ModuleVersion": "1.0.0", "ServerVersionRange": [ "2.5.5", "2.6.0" ], "ReleaseDate": "2024-03-20", "ReleaseNotes": "Initial Release", "Importance": "Major" },
           { "ModuleVersion": "1.1.0", "ServerVersionRange": [ "2.5.6", "2.6.0" ], "ReleaseDate": "2024-03-28", "ReleaseNotes": "Updated for new long running process handling", "Importance": "Major" },
           { "ModuleVersion": "1.1.1", "ServerVersionRange": [ "2.6.0", "2.6.0" ], "ReleaseDate": "2024-03-26", "ReleaseNotes": "Bug fixes" },
-          { "ModuleVersion": "1.1.2", "ServerVersionRange": [ "2.6.1",      "" ], "ReleaseDate": "2024-04-01", "ReleaseNotes": "Updates for server 2.6" },
-          { "ModuleVersion": "1.2.0", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Updates for server 2.6.5" },
-          { "ModuleVersion": "1.2.1", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections to compatibility settings" },
-          { "ModuleVersion": "1.2.2", "ServerVersionRange": [ "2.6.5",      "" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections for Numpy 2.0 breaking changes" }
+          { "ModuleVersion": "1.1.2", "ServerVersionRange": [ "2.6.1", "2.7.0" ], "ReleaseDate": "2024-04-01", "ReleaseNotes": "Updates for server 2.6" },
+          { "ModuleVersion": "1.2.0", "ServerVersionRange": [ "2.6.5", "2.7.0" ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Updates for server 2.6.5" },
+          { "ModuleVersion": "1.2.1", "ServerVersionRange": [ "2.6.5", "2.7.0" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections to compatibility settings" },
+          { "ModuleVersion": "1.2.2", "ServerVersionRange": [ "2.6.5", "2.7.0" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections for Numpy 2.0 breaking changes" },
+          { "ModuleVersion": "1.3.0", "ServerVersionRange": [ "2.8.0", ""      ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Updated for server 2.8" }
         ]
       },
       "UIElements": {

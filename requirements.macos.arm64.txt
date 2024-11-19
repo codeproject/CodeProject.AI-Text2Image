@@ -1,5 +1,7 @@
 #! Python3.9
 
+numpy==1.23                     # Installing NumPy, a package for scientific computing
+
 # Looking for more info on M1 chips? https://developer.apple.com/forums/thread/695963
 
 torch                           # Installing PyTorch, for Tensor computation and Deep neural networks

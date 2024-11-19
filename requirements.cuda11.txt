@@ -1,5 +1,7 @@
 #! Python3.9
 
+numpy==1.23                     # Installing NumPy, a package for scientific computing
+
 ## For CUDA 11.7
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==2.0.1                    # Installing PyTorch, an open source machine learning framework

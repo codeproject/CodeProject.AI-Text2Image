@@ -3,7 +3,7 @@
 
     "Text2Image": {
       "Name": "Text to Image",
-      "Version": "1.3.0",
+      "Version": "1.3.1",
 
       "PublishingInfo": {
         "Description": "Generates an image from a text prompt.",
@@ -51,7 +51,8 @@
           { "ModuleVersion": "1.2.0", "ServerVersionRange": [ "2.6.5", "2.7.0" ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Updates for server 2.6.5" },
           { "ModuleVersion": "1.2.1", "ServerVersionRange": [ "2.6.5", "2.7.0" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections to compatibility settings" },
           { "ModuleVersion": "1.2.2", "ServerVersionRange": [ "2.6.5", "2.7.0" ], "ReleaseDate": "2024-06-26", "ReleaseNotes": "Corrections for Numpy 2.0 breaking changes" },
-          { "ModuleVersion": "1.3.0", "ServerVersionRange": [ "2.8.0", ""      ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Updated for server 2.8" }
+          { "ModuleVersion": "1.3.0", "ServerVersionRange": [ "2.8.0", ""      ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Updated for server 2.8" },
+          { "ModuleVersion": "1.3.1", "ServerVersionRange": [ "2.8.0",    ""   ], "ReleaseDate": "2024-11-23", "ReleaseNotes": "Improved CUDA 12 support" }
         ]
       },
       "UIElements": {

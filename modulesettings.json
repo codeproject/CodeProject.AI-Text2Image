@@ -12,7 +12,7 @@
         "License": "CPOL",
         "LicenseUrl": "http://www.codeproject.com/info/cpol10.aspx",
         "Author": "Matthew Dennis",
-        "Homepage": "https://codeproject.com/ai",
+        "Homepage": "https://https://github.com/codeproject/CodeProject.AI-Server/",
         "BasedOn": "Diffusers",                                  // What project is this based on?
         "BasedOnUrl": "https://github.com/huggingface/diffusers" // The URL for that project
       },
